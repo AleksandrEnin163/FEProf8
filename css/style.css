@@ -1,0 +1,386 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url('/media/Rectangle\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 780px;
+}
+
+.header {
+    min-height: 780px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 66px;
+    color: #FFFFFF;
+    padding-bottom: 93px;
+}
+
+.header button {
+    width: 270px;
+    height: 70px;
+    background: #005FA3;
+    color: white;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    border: none;
+}
+
+main {
+    padding: 140px 0;
+    background: #EBEBEB;
+}
+
+main h2 {
+    padding-bottom: 40px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 33px;
+    color: #BDBDBD;
+}
+
+main h3 {
+    padding-bottom: 100px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 69px;
+    color: #333333;
+}
+
+.offers {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.offer {
+    width: 350px;
+    height: 360px;
+    background-image: url('/media/Rectangle\ 2\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.offer p {
+    padding: 0 0 45px 45px;
+}
+
+.about {
+    padding-bottom: 140px;
+}
+
+.about h2 {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 33px;
+    color: #BDBDBD;
+}
+
+.about_us {
+    display: flex;
+    gap: 125px;
+}
+
+.about_cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 255px;
+    height: 255px;
+    background: #EBEBEB;
+}
+
+.card:hover {
+    background: #005FA3;
+    color: white;
+}
+
+.card:hover a {
+    background: #005FA3;
+    color: white;
+}
+
+.about h3 {
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 69px;
+    color: #333333;
+}
+
+#name {
+    color: #005FA3;
+    padding-bottom: 60px;
+}
+
+.about_descr p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.amount {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 66px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding-left: 40px;
+}
+
+.finished_cases {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    padding-left: 40px;
+}
+
+.all_cases {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    color: #005FA3;
+    padding-left: 40px;
+}
+
+footer {
+    background-image: url('/media/Rectangle\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 620px;
+}
+
+.contact_us {
+    min-height: 620px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contacts h4 {
+    padding-bottom: 60px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 69px;
+    color: white;
+}
+
+.contacts p {
+    padding-bottom: 80px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+}
+
+.contact_info {
+    display: flex;
+    gap: 45px;
+}
+
+.mail {
+    display: flex;
+    gap: 20px;
+}
+
+.mail p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+    color: white;
+}
+
+.mail img {
+    height: 30px;
+}
+
+#mob_number {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form_fields {
+    display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: 1fr 2fr;
+	column-gap: 30px;
+	row-gap: 35px;
+    margin-bottom: 50px;
+}
+
+.label {
+    padding-bottom: 25px;
+	border: 1px solid transparent;
+    border-bottom-color: white;
+}
+
+.label span {
+    display: block;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+}
+
+.label input {
+    width: 100%;
+	height: 100%;
+	padding: 0;
+	font-weight: 300;
+	font-size: 21px;
+	line-height: 29px;
+	outline: none;
+	border: none;
+    color: white;
+    background-color: transparent;
+}
+
+::placeholder {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 29px;
+    color: #BDBDBD;
+}
+
+#text_area {
+    grid-column: 1 / span 2;
+}
+
+.form_button {
+    margin-left: auto;
+    width: 270px;
+    height: 60px;
+    background: #005FA3;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+    border: none;
+}
+
+@media screen and (max-width: 1115px) {
+    .wrapper {
+        max-width: 592px;
+    }
+
+    .offers {
+        grid-template-columns: 1fr;
+    }
+
+    .offer {
+        width: 100%;
+    }
+
+    .about_us {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .about_cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 120px;
+        background: #EBEBEB;
+    }
+
+    .contact_us {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 160px;
+    }
+}
